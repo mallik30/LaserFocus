@@ -27,7 +27,7 @@ To make the project work according to your needs,
   * Accept all permissions and allow it into private window.
 4. Chrome users:
 [Note : Remove ```"applications" : { ... }``` from ```manifest.json```]
-  * Go to [Here](chrome://extensions/).
+  * Go to chrome://extensions/.
   * Switch on developer mode > Load Unpacked > Select the root folder of your files
   * The chrome will run the extension on your PC. But, it will always ask to Disable developer mode extensions when you open a new chrome window, until you submit it as a chrome extension (with a small fee). That's why I chose Firefox :)
 
