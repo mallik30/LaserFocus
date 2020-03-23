@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "LaserFocus (Pro)",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "Block non-important info from your browsers",
 
     "content_scripts": [{
@@ -14,10 +14,5 @@
         "default_icon": "icons8-fire-96.png",
         "default_popup": "small_win.html"
       },
-    "content_security_policy": "script-src 'self' https://github.com; object-src 'self'",
-    "applications": {
-        "gecko": {
-          "id": "LaserFocusAndroidSaksham@Android.LaserFocus"
-        }
-    }
+    "content_security_policy": "script-src 'self' https://github.com; object-src 'self'"
 }
